@@ -2,6 +2,7 @@ export type ProductDetails = {
     products: Product[]
     limit: number
     skip: number
+    total: number
 }
 
 export type Product = {
